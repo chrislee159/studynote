@@ -22,7 +22,7 @@ title: Chris Lee's study note
 email: leechr1245@gmail.com, leechr123159@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Studying mathematics, computer science and software-vulnerabilities
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/studynote" # the subpath of your site, e.g. /blog
 url: "https://chrislee159.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: chrislee159
 #github_username:  chrislee159
