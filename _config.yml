@@ -22,8 +22,8 @@ title: Chris Lee's study note
 email: leechr1245@gmail.com, leechr123159@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Studying mathematics, computer science and software-vulnerabilities
-baseurl: "studynote" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://chrislee159.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: chrislee159
 #github_username:  chrislee159
 
@@ -41,9 +41,17 @@ defaults:
     values:
       layout: "post"
       author: "Chris Lee"
-      permalink: /:categories/:day/:year/:month/:title
-
-
+      permalink: /:month/:day/:year/:categories/:title
+      #permalink: /:categories/:title
+  
+  ignored
+  -
+    scope:
+      path: ""
+      type: "defaults"
+    values:
+      layout: "default"
+      permalink: /:categories/:title
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to

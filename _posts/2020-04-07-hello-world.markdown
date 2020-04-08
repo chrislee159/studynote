@@ -1,9 +1,8 @@
 ---
-layout: "post"
+author: "Chris Lee"
 title: "Buffer Overflow"
-
-categories: jekyll software-exploitation
-permalink: /:categories/:day/:year/:month/:title
+layout: post
+categories: software-exploitation
 ---
 
-Some Content 
+Some Content
