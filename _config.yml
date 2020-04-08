@@ -44,14 +44,16 @@ defaults:
       permalink: /:month/:day/:year/:categories/:title
       #permalink: /:categories/:title
   
-  ignored
-  -
-    scope:
-      path: ""
-      type: "defaults"
-    values:
-      layout: "default"
-      permalink: /:categories/:title
+  #ignored
+#defaults: 
+#  -
+#    scope:
+#      path: ""
+#      type: "defaults"
+#    values:
+#      layout: "default"
+#      permalink: /:categories/:title
+
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
