@@ -18,7 +18,7 @@ layout: default
 
 # Software Vulnerabilities
 1. Wargame
-    - [OverTheWire](/front/overthewire.html)
+    - [OverTheWire](./front/overthewire.html)
 
 # Book Reading
 1. Hacking: The Art of Exploitation by Jon Erickson
